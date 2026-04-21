@@ -127,10 +127,10 @@ async function popularDadosExemplo() {
 
   await set(ref(db, "admin-data"), {
     reports:  {
-      r1: { title: "Relatorio Q1", value: 9800  },
-      r2: { title: "Relatorio Q2", value: 14250 }
+      r1: { title: "Relatorio Q1", value: 1621  },
+      r2: { title: "Relatorio Q2", value: 3425 }
     },
-    settings: { maintenanceMode: false, totalUsers: 42 }
+    settings: { maintenanceMode: false, totalUsers: 7 }
   });
 }
 
